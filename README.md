@@ -22,7 +22,7 @@ Create interactive, illustrated, multilingual children's stories using AI — co
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/ai-storytelling-app.git
+git clone https://github.com/alfagen10/AI-Reimagine-Storytelling-App.git
 cd ai-storytelling-app
 ```
 
@@ -69,14 +69,6 @@ streamlit run app.py
 | PDF Export     | FPDF                  |
 | Speech Input   | speechrecognition + pydub |
 | QR Code        | qrcode                |
-
----
-
-## 📸 Screenshots
-
-| Main UI | PDF Export | QR Share |
-|--------|-------------|-----------|
-| ![Story UI](assets/story_ui.png) | ![PDF](assets/pdf_preview.png) | ![QR](assets/qr_code.png) |
 
 ---
 
@@ -140,7 +132,7 @@ streamlit run app.py
 📍 Bukit Jalil, Malaysia  
 🎓 BSc (Hons) in Computer Science (Digital Forensics), Asia Pacific University (APU)  
 📧 Email: alfarukmd78@gmail.com  
-🔗 GitHub: [github.com/your-username](https://github.com/alfagen10)
+🔗 GitHub: [github.com/alfagen10](https://github.com/alfagen10)
 
 ---
 
