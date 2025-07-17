@@ -19,7 +19,9 @@ Create interactive, illustrated, multilingual children's stories using AI — co
 
 ## 🚀 Quick Start
 
-🪜 A. Prerequisites
+---
+
+### 1. Prerequisites
 Make sure these are installed:
 
 - ✅ Python 3.9+ → Download here
@@ -29,20 +31,20 @@ Make sure these are installed:
 
 ---
 
-### 1. Clone the repository
+### 2. Clone the repository
 
 ```bash
 git clone https://github.com/alfagen10/AI-Reimagine-Storytelling-App.git
 cd ai-storytelling-app
 ```
 
-### 2. Install dependencies
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Add your DeepAI API key
+### 4. Add your DeepAI API key
 
 Create a file at `.streamlit/secrets.toml`:
 
@@ -51,7 +53,7 @@ Create a file at `.streamlit/secrets.toml`:
 deepai_key = "YOUR_DEEPAI_API_KEY"
 ```
 
-### 4. Run the app
+### 5. Run the app
 
 ```bash
 streamlit run app.py
