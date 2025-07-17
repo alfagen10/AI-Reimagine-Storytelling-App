@@ -22,10 +22,10 @@ Create interactive, illustrated, multilingual children's stories using AI — co
 🪜 A. Prerequisites
 Make sure these are installed:
 
-✅ Python 3.9+ → Download here
-✅ Git → Install Git
-✅ FFmpeg (for audio) → sudo apt install ffmpeg or use ffmpeg.org
-✅ Ollama → to run the local AI model (e.g. mistral)
+- ✅ Python 3.9+ → Download here
+- ✅ Git → Install Git
+- ✅ FFmpeg (for audio) → sudo apt install ffmpeg or use ffmpeg.org
+- ✅ Ollama → to run the local AI model (e.g. mistral)
 
 ---
 
