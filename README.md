@@ -58,14 +58,22 @@ To enable offline story generation using the Mistral LLM via Ollama, follow thes
 
 ⚙️ setup_ollama()
 
-# 1. Download & Install Ollama
+- 1. Download & Install Ollama
 Visit https://ollama.com and download for your OS (Windows, macOS, or Linux)
 
-# 2. Pull the Mistral Model
-ollama pull mistral  # This will download ~4.1GB
+- 2. Pull the Mistral Model
+     
+```bash
+ollama pull mistral
+```
+       # This will download ~4.1GB
 
-# 3. Run the Ollama Server
-ollama run mistral   # Starts the local LLM server
+- 3. Run the Ollama Server
+ 
+```bash
+ollama run mistral
+```
+    # Starts the local LLM server
 
 💡 Make sure Ollama is running in the background when you launch the app.
 
