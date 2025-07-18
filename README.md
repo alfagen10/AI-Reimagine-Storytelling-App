@@ -65,15 +65,13 @@ Visit https://ollama.com and download for your OS (Windows, macOS, or Linux)
      
 ```bash
 ollama pull mistral
-```
-       # This will download ~4.1GB
+```  # This will download ~4.1GB
 
 - 3. Run the Ollama Server
  
 ```bash
 ollama run mistral
-```
-    # Starts the local LLM server
+``` # Starts the local LLM server
 
 💡 Make sure Ollama is running in the background when you launch the app.
 
