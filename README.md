@@ -21,7 +21,7 @@ Create interactive, illustrated, multilingual children's stories using AI — co
 
 ---
 
-### 1. Prerequisites
+### A. Prerequisites
 Make sure these are installed:
 
 - ✅ Python 3.9+ → Download here
@@ -31,20 +31,20 @@ Make sure these are installed:
 
 ---
 
-### 2. Clone the repository
+### B. Clone the repository
 
 ```bash
 git clone https://github.com/alfagen10/AI-Reimagine-Storytelling-App.git
 cd ai-storytelling-app
 ```
 
-### 3. Install dependencies
+### C. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Add your DeepAI API key
+### D. Add your DeepAI API key
 
 Create a file at `.streamlit/secrets.toml`:
 
@@ -52,8 +52,26 @@ Create a file at `.streamlit/secrets.toml`:
 [api]
 deepai_key = "YOUR_DEEPAI_API_KEY"
 ```
+---
+### E. 🧠 How to Run Locally with Ollama (Mistral Model)
+To enable offline story generation using the Mistral LLM via Ollama, follow these steps:
 
-### 5. Run the app
+⚙️ setup_ollama()
+
+# 1. Download & Install Ollama
+Visit https://ollama.com and download for your OS (Windows, macOS, or Linux)
+
+# 2. Pull the Mistral Model
+ollama pull mistral  # This will download ~4.1GB
+
+# 3. Run the Ollama Server
+ollama run mistral   # Starts the local LLM server
+
+💡 Make sure Ollama is running in the background when you launch the app.
+
+--- 
+
+### F. Run the app
 
 ```bash
 streamlit run app.py
